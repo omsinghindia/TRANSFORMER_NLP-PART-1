@@ -22,19 +22,7 @@ pip install -r requirements.txt
 
 
 
-Alternatively, if you prefer to use Conda:
-conda create --name myenv --file conda.txt
-conda activate myenv
-File Structure
-train.py: Script for training the Transformer model.
-translate.py: Performs inference and translation using a trained model.
-Beam_Search.ipynb: Notebook implementing beam search for improved decoding.
-attention_visual.ipynb: Visualizes attention layers for better model interpretability.
-dataset.py: Handles data loading and preprocessing for training.
-model.py: Contains the Transformer architecture implemented in PyTorch.
-config.py: Stores configurations for training and inference.
-Local_Train.ipynb: Jupyter notebook for training the model on local machines.
-Colab_Train.ipynb: Jupyter notebook for training the model on Google Colab.
+
 .gitignore: Lists files to be ignored by Git version control.
 Usage
 Training
