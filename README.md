@@ -1,8 +1,8 @@
-#PyTorch-Transformer
+PyTorch-Transformer
 #Overview
 This repository contains the implementation of a Transformer model using PyTorch. The Transformer architecture is a widely-used model for tasks such as machine translation, text generation, and more. This implementation includes training, inference, and visualization scripts to fully utilize the Transformer.
 
-#Features
+Features
 Model Architecture: Implements a Transformer model from scratch using PyTorch.
 Training: Supports both local training (Local_Train.ipynb) and Google Colab-based training (Colab_Train.ipynb).
 Inference: translate.py and Inference.ipynb allow for generating predictions from a trained model.
